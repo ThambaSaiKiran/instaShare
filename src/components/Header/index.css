@@ -1,0 +1,121 @@
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20vw;
+  margin-left: 30px;
+}
+
+.headerCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-left: 15vw;
+  min-width: 95vw;
+}
+
+.searchCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 5px;
+}
+
+.headerHead {
+  width: 40vw;
+  font-size: 20px;
+}
+.logoutBtn {
+  padding: 10px;
+  background: #4094ef;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 32px;
+}
+
+.searchNavCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+}
+
+.navItem {
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.searchIcon {
+  height: 20px;
+}
+
+.mobileHead {
+  display: none;
+}
+.mobileSearch {
+  display: none;
+}
+
+@media all and (orientation: portrait) {
+  .mobileHead {
+    display: block;
+  }
+  #bar {
+    background-color: black;
+  }
+  #deskView {
+    display: none;
+  }
+  .hamIcon {
+    display: block;
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  .headerCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-left: 0vw;
+    min-width: 95vw;
+  }
+
+  .displayHam {
+    display: flex;
+    flex-direction: row;
+    max-width: 87vw;
+    margin-left: 10vw;
+    justify-content: space-between;
+    top: 90px;
+  }
+  .NotDisplay {
+    display: none;
+  }
+  .searchInput {
+    padding: 5px;
+    width: 50vw;
+  }
+
+  .mobileSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+  }
+}

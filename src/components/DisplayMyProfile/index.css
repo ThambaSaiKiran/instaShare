@@ -1,0 +1,170 @@
+.profCont {
+  margin-left: 15vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profDetCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+}
+
+.profilePicImg {
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.profDet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 200px;
+}
+
+.storiesList {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+}
+
+.story {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin-right: 50px;
+  padding: 5px;
+  border-style: solid;
+  border-color: #c7c7cc;
+}
+
+.storyItem {
+  list-style-type: none;
+}
+
+.postLogoCont {
+  display: flex;
+  flex-direction: row;
+  width: 70px;
+  justify-content: space-between;
+}
+
+.userPosts {
+  min-height: 30vh;
+  width: 25vw;
+  margin-right: 15vw;
+}
+
+.postsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.postItem {
+  list-style-type: none;
+  width: 15vw;
+}
+
+.camera {
+  border: 2px solid #262626;
+  border-radius: 43px;
+  height: 70px;
+  width: 70px;
+}
+
+.mobileViewUserName {
+  display: none;
+}
+
+.horLine {
+  height: 5px;
+  color: black;
+}
+
+.myProfileMobileView {
+  display: none;
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+@media all and (orientation: portrait) {
+  .story {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #c7c7cc;
+  }
+  .postItem {
+    list-style-type: none;
+  }
+  .userPosts {
+    height: 28vh;
+    width: 28vw !important;
+  }
+  .postsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .profCont {
+    margin-left: 0px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .profDetCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .mobileViewUserName {
+    display: block;
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  .postLogoCont {
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+
+  .myProfileMobileView {
+    display: block;
+    margin-left: 30px;
+  }
+  .mobileViewProfileDet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    align-items: center;
+  }
+  .profDetCont {
+    display: none;
+  }
+  .mobilePostNumbers {
+    font-weight: bold;
+  }
+}

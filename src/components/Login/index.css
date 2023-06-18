@@ -1,0 +1,130 @@
+.website-login {
+  height: 300px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 200px;
+  border-radius: 0px;
+}
+
+.loginMainCont {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-head {
+  height: 32px;
+  width: 122px;
+  margin-left: 154px;
+  top: 397px;
+}
+
+.errMsg {
+  color: red;
+}
+
+.loginCont {
+  position: absolute;
+  min-height: 400px;
+  margin-left: 50vw;
+  margin-top: 19vh;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+  padding: 30px;
+  padding-bottom: 20px;
+  flex-grow: inherit;
+}
+
+.website-logo {
+  height: 41.99925994873047px;
+  width: 82px;
+  margin-left: 150px;
+  margin-top: 12px;
+  border-radius: 0px;
+}
+
+.loginButton {
+  height: 40px;
+  width: 360px;
+  top: 0px;
+  background: #4094ef;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  height: 40px;
+  width: 360px;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 7px;
+}
+
+.password {
+  height: 40px;
+  width: 360px;
+  padding: 10px;
+  margin-top: 7px;
+}
+
+@media all and (orientation: portrait) {
+  .website-login {
+    display: none;
+  }
+
+  .loginCont {
+    position: absolute;
+    min-height: 400px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 17vh;
+    background: #fefeff;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    border-radius: 8px;
+    padding: 30px;
+    padding-bottom: 20px;
+    flex-grow: inherit;
+  }
+  .username {
+    height: 40px;
+    width: 70vw;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .password {
+    height: 40px;
+    width: 70vw;
+    padding: 10px;
+    margin-top: 7px;
+  }
+
+  .loginButton {
+    height: 40px;
+    width: 70vw;
+    top: 0px;
+    background: #4094ef;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  .website-logo {
+    height: 31.99925994873047px;
+    width: 52px;
+    margin-left: 100px;
+    margin-top: 12px;
+    border-radius: 0px;
+  }
+  .login-head {
+    height: 32px;
+    width: 222px;
+    margin-left: 50px;
+    top: 397px;
+    font-size: 30px;
+  }
+}
